@@ -1,1 +1,11 @@
-
+first_name = "Tamime"
+last_name = "Attal"
+full_name = "Tamime Attal"
+country = "Algeria"
+city = "Kalitous"
+age = 18
+year = 2025
+is_married = False
+is_true = False
+is_light_on = False
+first_name, last_name, full_name, country, city, age, year, is_married, is_true, is_light_on = "Tamime", "Attal", "Tamime Attal", "Algeria", "kalitous", 18, 2025, False, False, False  
