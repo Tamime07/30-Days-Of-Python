@@ -1,3 +1,4 @@
+Exercice 1
 first_name = "Tamime"
 last_name = "Attal"
 full_name = "Tamime Attal"
@@ -8,4 +9,77 @@ year = 2025
 is_married = False
 is_true = False
 is_light_on = False
-first_name, last_name, full_name, country, city, age, year, is_married, is_true, is_light_on = "Tamime", "Attal", "Tamime Attal", "Algeria", "kalitous", 18, 2025, False, False, False  
+first_name, last_name, full_name, country, city, age, year, is_married, is_true, is_light_on = "Tamime", "Attal", "Tamime Attal", "Algeria", "kalitous", 18, 2025, False, False, False
+Exercice 2 
+1
+print(type(first_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(is_true))
+print(type(is_light_on))
+2
+print(len(first_name))
+print(len(last_name))
+print(len(full_name))
+print(len(country))
+print(len(city))
+print(len(age))
+print(len(year))
+print(len(is_married))
+print(len(is_true))
+print(len(is_light_on))
+3
+print(len(first_name)<len(last_name))
+print(len(first_name)>len(last_name))
+print(len(first_name)==len(last_name))
+4
+num_one = 5
+num_two = 4
+5
+total = num_one + num_two
+print(total)
+6
+diff = num_one - num_two
+print(diff)
+7
+product = num_one * num_two
+print(product)
+8
+division = num_one / num_two
+print(division)
+9
+remainder = num_one % num_two
+print(remainder)
+10
+exp = num_one ** num_two
+print(exp)
+11
+floor_division = num_one // num_two
+print(floor_division)
+12
+pi = 3.14
+radius = 30 
+area_of_circle = pi*radius**2
+circum_of_circle = pi*radius*2
+print(area_of_circle)
+print(circum_of_circle)
+pi = 3.14
+radius = float(input("Enter the radius: "))
+area_of_circle = pi*radius**2
+print(area_of_circle)
+13
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+country = input("Enter your country: ")
+age = int(input("Enter your age: "))
+print(first_name)
+print(last_name)
+print(country)
+print(age)
+14
+help('keywords')
