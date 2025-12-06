@@ -1,1 +1,15 @@
-
+Exercice
+1
+age = 18
+print(age)
+2
+height = 182.0
+print(height)
+3
+complex_num = 2j
+print(complex_num)
+4
+base = int(input('Enter base value:'))
+height = int(input('Enter height value:'))
+area = 0.5*base*height
+print('The area of the triangle is:' , int(area))
