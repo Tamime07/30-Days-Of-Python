@@ -13,3 +13,23 @@ base = int(input('Enter base value:'))
 height = int(input('Enter height value:'))
 area = 0.5*base*height
 print('The area of the triangle is:' , int(area))
+5
+side_a = float(input("Enter side a: "))
+side_b = float(input("Enter side b: "))
+side_c = float(input("Enter side c: "))
+perimeter = side_a + side_b + side_c
+print("The perimeter of the triangle is:", perimeter)
+6
+lenght = float(input("Enter lenght: "))
+width = float(input("Enter the width:"))
+area = lenght*width
+perimeter = (lenght + width)*2
+print("The area of the rectangle is:", area)
+print("The perimeter of the rectangle is:", perimeter)
+7
+pi = 3.14
+radius = float(input("Enter the radius:"))
+area = pi*radius**2
+circumference = pi*radius*2
+print('The area of the circle is:', area)
+print('The circumference of the circle is:', circumference)
