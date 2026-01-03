@@ -33,3 +33,32 @@ area = pi*radius**2
 circumference = pi*radius*2
 print('The area of the circle is:', area)
 print('The circumference of the circle is:', circumference)
+slope1 = 2
+y_intercept = -2
+x_intercept = 1
+print("The slope of the line is:", slope1)
+print("The y_intercept of the line is :", y_intercept)
+print("The x intercept of the line is:", x_intercept)
+import math
+x1 = 2
+x2 = 6
+y1 = 2
+y2 = 10
+slope2 = ((y2 - y1)/(x2 - x1))
+point_a = (x1,y1)
+point_b = (x2,y2)
+distance_a_b = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("The slope of the function is:", slope2)
+print("The distance between point  a and point b is:", distance_a_b)
+if slope1 == slope2
+print("The two slopes are equal")
+else:
+print("The two slopes are different")
+import math
+a = 2
+b = 6
+c = 9
+discriminant = b**2 - 4*a*c
+x1 = ((-b + math.sqrt(discriminant)) / (a*2))
+x2 = ((-b - math.sqrt(discriminant)) / (a*2))
+print ("The solutions are :", x1 , "and", x2)
