@@ -1,3 +1,4 @@
+the code written here has no goal only small tasks
 Exercice
 1
 age = 18
@@ -33,12 +34,14 @@ area = pi*radius**2
 circumference = pi*radius*2
 print('The area of the circle is:', area)
 print('The circumference of the circle is:', circumference)
+8
 slope1 = 2
 y_intercept = -2
 x_intercept = 1
 print("The slope of the line is:", slope1)
 print("The y_intercept of the line is :", y_intercept)
 print("The x intercept of the line is:", x_intercept)
+9
 import math
 x1 = 2
 x2 = 6
@@ -50,10 +53,12 @@ point_b = (x2,y2)
 distance_a_b = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 print("The slope of the function is:", slope2)
 print("The distance between point  a and point b is:", distance_a_b)
+10
 if slope1 == slope2
 print("The two slopes are equal")
 else:
 print("The two slopes are different")
+11
 import math
 a = 2
 b = 6
@@ -62,3 +67,27 @@ discriminant = b**2 - 4*a*c
 x1 = ((-b + math.sqrt(discriminant)) / (a*2))
 x2 = ((-b - math.sqrt(discriminant)) / (a*2))
 print ("The solutions are :", x1 , "and", x2)
+12
+python_len = len ("python")
+dragon_len = len("dragon")
+print('python_len')
+print('dragon_len')
+result = len("python")>len("dragon")
+print('result')
+13
+result3 = "on" in "python" and "on" in "dragon"
+print(result3)
+14
+sentence = "I hope this course is not full of jargon"
+result7 = 'jargon' in sentence
+print(result7)
+'on' not in both 'dragon' and 'python'
+length = len('python')
+print(length)       
+print(type(length))  
+to_float = float(length)
+print(to_float)        
+print(type(to_float))  
+to_string = str(to_float)
+print(to_string)        
+print(type(to_string))  
